@@ -6,5 +6,8 @@ RUN yum update -y && \
       which \
       make \
       less \
+      createrepo \
+      systemd \
       && \
     yum clean all
+
